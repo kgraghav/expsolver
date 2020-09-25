@@ -82,22 +82,22 @@ The important files include: <br>
 ## Example Code<a name="example"></a>
 
 <b>Code snippet:</b><br> 
-from expsolver import Solver as solver
-exp='x**3-2*x**2-3*x-100' # Expression to be solved
-solv_obj=solver(exp)  # Solver object exp
-solv_obj.solve() # Solve exp
+from expsolver import Solver as solver <br>
+exp='x**3-2*x**2-3*x-100' # Expression to be solved <br>
+solv_obj=solver(exp)  # Solver object exp <br>
+solv_obj.solve() # Solve exp <br>
 
 <b>Results:</b><br>
-solv_obj.get_order()
-2
-solv_obj.get_maxima()
-[-0.5375000000000474]
-solv_obj.get_roots()
-[5.65625]
-solv_obj.get_delta()
-[-0.006256103515625]
-solv_obj.get_minima()
-[1.8624999999999483]
+solv_obj.get_order() <br>
+2 <br>
+solv_obj.get_maxima() <br>
+[-0.5375000000000474] <br>
+solv_obj.get_roots() <br>
+[5.65625] <br>
+solv_obj.get_delta() <br>
+[-0.006256103515625] <br>
+solv_obj.get_minima() <br>
+[1.8624999999999483] <br>
 
 ## Limitations<a name="limitations"></a>
 1. Currently cannot solve advanced functions from the math library
