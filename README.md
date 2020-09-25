@@ -106,9 +106,10 @@ solv_obj.get_minima() <br>
 
 ## Improvements<a name="improvements"></a>
 1. Modified to include math functions
-2. Efficiency 
+2. Efficiency can be improved by optimizing tolerances and tolerance based iteration logic
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 For licensing information check the LICENSE file
+[Link to Github]https://github.com/kgraghav/expsolver/
 
