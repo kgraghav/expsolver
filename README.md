@@ -112,5 +112,5 @@ solv_obj.get_minima() <br>
 
 For licensing information check the LICENSE file in this ("expsolver") repository <br>
 [Link to Github](https://github.com/kgraghav/expsolver/)<br>
-[Link to Pip](https://pypi.org/project/expsolver/)<br>
+[Link to PYPI](https://pypi.org/project/expsolver/)<br>
 
