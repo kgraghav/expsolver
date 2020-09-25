@@ -110,6 +110,6 @@ solv_obj.get_minima() <br>
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-For licensing information check the LICENSE file
+For licensing information check the LICENSE file <br>
 [Link to Github]https://github.com/kgraghav/expsolver/
 
