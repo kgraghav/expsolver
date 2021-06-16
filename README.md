@@ -68,11 +68,11 @@ The important files include: <br>
 
 ## Inputs and Outputs <a name="inputoutput"></a>
 
-<b>Inputs:</b><br>
+<b>Inputs:</b></br>
 1. exp: expression to be solved e.g. 2*x**2+3*x-100=0
-<b>Solve:</b><br>
+<b>Solve:</b></br>
 1. solve(): solves for "exp = 0"
-<b>Outputs:</b><br>
+<b>Outputs:</b></br>
 1. get_order(): Integer order of equation "exp=0"
 2. get_root(): List of roots for "exp=0"
 3. get_delta(): List of "0-exp(root)"
