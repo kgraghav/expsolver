@@ -68,11 +68,11 @@ The important files include: <br>
 
 ## Inputs and Outputs <a name="inputoutput"></a>
 
-<b>Inputs:</b><br>
+<b>Inputs:</b></br>
 1. exp: expression to be solved e.g. 2*x**2+3*x-100=0
-<b>Solve:</b><br>
+<b>Solve:</b></br>
 1. solve(): solves for "exp = 0"
-<b>Outputs:</b><br>
+<b>Outputs:</b></br>
 1. get_order(): Integer order of equation "exp=0"
 2. get_root(): List of roots for "exp=0"
 3. get_delta(): List of "0-exp(root)"
@@ -82,10 +82,10 @@ The important files include: <br>
 ## Example Code<a name="example"></a>
 
 <b>Code snippet:</b><br> 
-from expsolver import Solver as solver <br>
-exp='x**3-2*x**2-3*x-100' # Expression to be solved <br>
-solv_obj=solver(exp)  # Solver object exp <br>
-solv_obj.solve() # Solve exp <br>
+from expsolver import Solver as solver </br>
+exp='x**3-2*x**2-3*x-100' # Expression to be solved </br>
+solv_obj=solver(exp)  # Solver object exp </br>
+solv_obj.solve() # Solve exp </br>
 
 <b>Results:</b><br>
 solv_obj.get_order() <br>
